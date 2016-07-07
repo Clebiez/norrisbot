@@ -1,0 +1,21 @@
+{
+  "name": "norrisbot",
+  "version": "1.0.0",
+  "description": "A very light project in NodeJS for create a slack bot and interact with an external API for send Chuck Norris Fact with your name inside",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Clément Le Biez",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "html-entities": "^1.2.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
